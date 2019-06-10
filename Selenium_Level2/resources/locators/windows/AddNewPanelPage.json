@@ -24,21 +24,53 @@
 			"type": "xpath",
 			"value": "//input[@id='radPanelType3']"
 		},
-		//select[@id='cbbProfile']
-		//input[@id='txtDisplayName']
-		//input[@id='txtChartTitle']
-		//input[@id='chkShowTitle']
-		//select[@id='cbbChartType']
-		//input[@id='rdoChartStyle2D']
-		//input[@id='rdoChartStyle3D']
-		//select[@id='cbbCategoryField']
-		//input[@id='txtCategoryXAxis']
-		//select[@id='cbbSeriesField']
-		//input[@id='txtCategoryYAxis']
-		
-		"lnkAddNew": {
+		"cbbProfile": {
 			"type": "xpath",
-			"value": "//div[@class='panel_tag2']/a"
+			"value": "//select[@id='cbbProfile']"
+		},
+		"txtDisplayName": {
+			"type": "xpath",
+			"value": "//input[@id='txtDisplayName']"
+		},
+		"txtChartTitle": {
+			"type": "xpath",
+			"value": "//input[@id='txtChartTitle']"
+		},
+		"chkShowTitle": {
+			"type": "xpath",
+			"value": "//input[@id='chkShowTitle']"
+		},
+		"cbbChartType": {
+			"type": "xpath",
+			"value": "//select[@id='cbbChartType']"
+		},
+		"radChartStyle2D": {
+			"type": "xpath",
+			"value": "//input[@id='rdoChartStyle2D']"
+		},
+		"radChartStyle3D": {
+			"type": "xpath",
+			"value": "//input[@id='rdoChartStyle3D']"
+		},
+		"cbbCategoryField": {
+			"type": "xpath",
+			"value": "//select[@id='cbbCategoryField']"
+		},
+		"txtCategoryXAxis": {
+			"type": "xpath",
+			"value": "//input[@id='txtCategoryXAxis']"
+		},
+		"cbbSeriesField": {
+			"type": "xpath",
+			"value": "//select[@id='cbbSeriesField']"
+		},
+		"txtCategoryYAxis": {
+			"type": "xpath",
+			"value": "//input[@id='txtCategoryYAxis']"
+		},
+		"txtIndicatorTitle": {
+			"type": "xpath",
+			"value": "//input[@id='txtIndicatorTitle']"
 		}
 	}
 }
