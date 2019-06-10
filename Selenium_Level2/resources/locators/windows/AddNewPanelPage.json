@@ -1,0 +1,44 @@
+{
+	"default": {
+		"tabDisplaySettings": {
+			"type": "xpath",
+			"value": "//li/a[@href='#tabs-displaySettings']"
+		},
+		"tabFilters": {
+			"type": "xpath",
+			"value": "//li/a[@href='#tabs-data']"
+		},
+		"radChart": {
+			"type": "xpath",
+			"value": "//input[@id='radPanelType0']"
+		},
+		"radIndicator": {
+			"type": "xpath",
+			"value": "//input[@id='radPanelType1']"
+		},
+		"radReport": {
+			"type": "xpath",
+			"value": "//input[@id='radPanelType2']"
+		},
+		"radHeatMap": {
+			"type": "xpath",
+			"value": "//input[@id='radPanelType3']"
+		},
+		//select[@id='cbbProfile']
+		//input[@id='txtDisplayName']
+		//input[@id='txtChartTitle']
+		//input[@id='chkShowTitle']
+		//select[@id='cbbChartType']
+		//input[@id='rdoChartStyle2D']
+		//input[@id='rdoChartStyle3D']
+		//select[@id='cbbCategoryField']
+		//input[@id='txtCategoryXAxis']
+		//select[@id='cbbSeriesField']
+		//input[@id='txtCategoryYAxis']
+		
+		"lnkAddNew": {
+			"type": "xpath",
+			"value": "//div[@class='panel_tag2']/a"
+		}
+	}
+}
