@@ -1,0 +1,12 @@
+{
+	"default": {
+		"txtRepoName": {
+			"type": "xpath",
+			"value": "//div[@id='header']//a/span"
+		},
+		"btnAdminister": {
+			"type": "xpath",
+			"value": "//li[ul/li[@class='sep'] and ul/li/a[@href='profiles.jsp']]/a"
+		}
+	}	
+}

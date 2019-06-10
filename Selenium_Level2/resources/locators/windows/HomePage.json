@@ -1,0 +1,8 @@
+{
+	"default": {
+		"menuExecutionDashboard": {
+			"type": "xpath",
+			"value": "//a[contains(.,'Execution') and contains(.,'Dashboard')]"
+		}
+	}
+}
